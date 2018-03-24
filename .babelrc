@@ -1,6 +1,6 @@
 {
-  "presets": ["es2015-loose", "stage-0"],
-  "plugins": ["add-module-exports"],
+  "presets": ["env"],
+  "plugins": ["add-module-exports", "transform-object-rest-spread"],
   "env": {
     "development": {
       "sourceMaps": "inline"
